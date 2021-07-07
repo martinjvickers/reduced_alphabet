@@ -253,7 +253,7 @@ int count(CharString seq, int kmer_size, map<CharString, int> &counts,
 
 int precalculateRefCounts(vector<map<CharString, int>> &referenceCounts, 
                           StringSet<CharString> &ids,
-                          StringSet<Dna5String> &seqs,
+                          StringSet<CharString> &seqs,
                           int kmer_size,
                           ModifyStringOptions options)
 {
