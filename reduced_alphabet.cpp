@@ -303,7 +303,7 @@ int main(int argc, char const ** argv)
    }   
 
    StringSet<CharString> ids;
-   StringSet<Dna5String> seqs;
+   StringSet<CharString> seqs;
    readRecords(ids, seqs, referenceFileIn);
 
    vector<map<CharString, int>> referenceCounts;
