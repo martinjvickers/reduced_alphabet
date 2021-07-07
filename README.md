@@ -1,5 +1,3 @@
-# XFTOOLS
-
 ## reduced_alphabet
 
 Description of reduced_alphabet
